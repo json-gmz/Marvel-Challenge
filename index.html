@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Marvel</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="front/css/global.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+    </head>
+    <body>
+        <div w3-include-html="front/views/header.html"></div>
+        <div w3-include-html="front/views/characters.html"></div>
+        <div w3-include-html="front/views/footer.html"></div>
+        <script>w3.includeHTML();</script>
+    </body>
+</html>
+
+<script>
+    var timestamp = + new Date();
+    var url = "http://gateway.marvel.com/v1/public/comics";
+    var publickey = "bd0887227461e3a241bbec58b0f49366";
+    var privatekey = "dfb3f95c46ce878caf55ec89d14abaf2f64bb105";
+    var hash = timestamp+privatekey+publickey;
+    console.log(hash);
+    hash = "274ebf302fd028df1a6b817f1ae2a749";
+    $.ajax({
+        method: "GET",
+        url: url,
+        data: { apikey: publickey, ts: timestamp, hash: hash }
+    }).done(function( response ) {
+        console.log(response);
+    });
+</script>
