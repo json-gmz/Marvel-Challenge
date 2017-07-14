@@ -1,2 +1,5 @@
-#container-characters { background: #f4f4f4; padding: 2%; border: 1px solid black; }
+#container-characters { background: #f4f4f4; padding: 2%; }
 #container-characters .block div label { font-size: 20px; font-weight: bold; vertical-align: middle; margin: 0; }
+#container-characters .dropdown { float: right; }
+#container-characters .dropdown button { width: 200px; text-align: left; height: 40px; }
+#container-characters .dropdown button span { float: right; margin-top: 8px; }
