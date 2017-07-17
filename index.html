@@ -6,6 +6,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <!-- Config -->
+        <script src="data/config.js"></script>
+        <!-- Controllers -->
+        <script src="controllers/characters.js"></script>
     </head>
     <body>
         <div class="row">
@@ -21,18 +25,3 @@
         <script>w3.includeHTML();</script>
     </body>
 </html>
-
-<script>
-    var timestamp = + new Date();
-    var url = "http://gateway.marvel.com/v1/public/comics";
-    var publickey = "bd0887227461e3a241bbec58b0f49366";
-    var privatekey = "dfb3f95c46ce878caf55ec89d14abaf2f64bb105";
-    var hash = "";
-    $.ajax({
-        method: "GET",
-        url: url,
-        data: { apikey: publickey, ts: timestamp, hash: hash }
-    }).done(function( response ) {
-        console.log(response);
-    });
-</script>
