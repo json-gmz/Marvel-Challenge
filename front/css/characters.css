@@ -6,12 +6,15 @@
 #container-characters .dropdown .dropdown-menu { width: 200px; }
 #container-characters .fa-angle-down { font-size: 25px; line-height: 30px; }
 #container-characters .block-two { margin: 4% 0; }
-#container-characters .container-char { background: #fff; padding: 10px; width: 46%; margin: 0 2% 4% 2%; height: 22vw; }
-#container-characters .container-char .description-short-char { font-size: 12px; color: #7b7170; }
-#container-characters .container-char .name-char { font-weight: bold; font-size: 16px; margin-bottom: 7px; }
-#container-characters .container-char .row:first-child { position: relative; top: -20px; height: 190px; }
+#container-characters .container-char { background: #fff; padding: 10px; width: 46%; margin: 0 2% 4% 2%; height: 21vw; }
+#container-characters .container-char .description-short-char { font-size: 12px; color: #7b7170; min-height: 115px; }
+#container-characters .container-char .name-char { font-weight: bold; font-size: 16px; margin-bottom: 7px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+#container-characters .container-char .img-character { width: 100%; border-radius: 50%; left: -45px; position: relative; height: 12vw; margin-right: 14px; display: block; float: left; box-shadow: 6px 3px 5px #ccc; -webkit-box-shadow: 6px 3px 5px #ccc; -moz-box-shadow: 6px 3px 5px #ccc; }
+#container-characters .container-char .row:first-child { position: relative; top: -20px; height: 170px; }
 #container-characters .container-char .button-view-more { color: #fff; background: #ec1d23; padding: 6px 10px; width: 85px; font-weight: bold; font-size: 11px; cursor: pointer; margin-top: 7px; }
 #container-characters .container-char .row:last-child { color: #776e6f; }
 #container-characters .container-char .row:last-child .col-sm-6 { margin-bottom: 5px; }
 #container-characters .container-char .related-comics { font-weight: bold; padding-left: 15px; margin-bottom: 5px; }
-#container-characters .not-founds { color: #ec1d23; font-size: 20px; border: 1px solid #ec1d23; background: #fff; padding: 10px 0; }
+#container-characters .container-char .related-comic { min-height: 45px; font-size: 12px; }
+#container-characters .not-founds { color: #ec1d23; font-size: 20px; border: 1px solid #ec1d23; background: #fff; padding: 10px 0; margin-top: 5%; }
+#container-characters .block-buttons-page span { color: #fff; background: #ec1d23; padding: 10px 30px; cursor: pointer; box-shadow: 1px 3px 3px #ccc; -webkit-box-shadow: 1px 3px 3px #ccc; -moz-box-shadow: 1px 3px 3px #ccc; }
