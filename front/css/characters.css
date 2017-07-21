@@ -1,5 +1,16 @@
 #container-characters { background: #f4f4f4; padding: 2%; }
-#container-characters .block div label { font-size: 20px; font-weight: bold; vertical-align: middle; margin: 0; }
+#container-characters .block-one div label { font-size: 20px; font-weight: bold; vertical-align: middle; margin: 0; }
 #container-characters .dropdown { float: right; }
-#container-characters .dropdown button { width: 200px; text-align: left; height: 40px; }
-#container-characters .dropdown button span { float: right; margin-top: 8px; }
+#container-characters .dropdown button { width: 200px; text-align: left; height: 40px; border-radius: 2px; background: #fff; line-height: 30px; }
+#container-characters .dropdown button span { float: right; }
+#container-characters .dropdown .dropdown-menu { width: 200px; }
+#container-characters .fa-angle-down { font-size: 25px; line-height: 30px; }
+#container-characters .block-two { margin: 4% 0; }
+#container-characters .container-char { background: #fff; padding: 10px; width: 46%; margin: 0 2% 4% 2%; height: 22vw; }
+#container-characters .container-char .description-short-char { font-size: 12px; color: #7b7170; }
+#container-characters .container-char .name-char { font-weight: bold; font-size: 16px; margin-bottom: 7px; }
+#container-characters .container-char .row:first-child { position: relative; top: -20px; height: 190px; }
+#container-characters .container-char .button-view-more { color: #fff; background: #ec1d23; padding: 6px 10px; width: 85px; font-weight: bold; font-size: 11px; cursor: pointer; margin-top: 7px; }
+#container-characters .container-char .row:last-child { color: #776e6f; }
+#container-characters .container-char .row:last-child .col-sm-6 { margin-bottom: 5px; }
+#container-characters .container-char .related-comics { font-weight: bold; padding-left: 15px; margin-bottom: 5px; }

@@ -1,4 +1,4 @@
 header { background: #2d2727; padding: 10px 30px; }
-#logo-marvel { width: 35%; }
+#logo-marvel { width: 35%; height: 50px; }
 #search-character { width: 60%; padding: 13px 15px; border-radius: 4px; }
-#icon-search { position: relative; left: -4%; }
+#icon-search { position: relative; left: -5%; }
