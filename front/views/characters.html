@@ -11,9 +11,13 @@
                     <span class="fa fa-angle-down"></span>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a href="#">A-Z</a></li>
+                    <li id='sortbyname' class='sortbyoption'><a href="javascript:getCharacters('name');javascript:sortBy('name');">A-Z</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Z-A</a></li>
+                    <li id='sortby-name' class='sortbyoption'><a href="javascript:getCharacters('-name');javascript:sortBy('-name');">Z-A</a></li>
+                    <li class="divider"></li>
+                    <li id='sortbymodified' class='sortbyoption'><a href="javascript:getCharacters('modified');javascript:sortBy('modified');">First Modified</a></li>
+                    <li class="divider"></li>
+                    <li id='sortby-modified' class='sortbyoption'><a href="javascript:getCharacters('-modified');javascript:sortBy('-modified');">Latest Modified</a></li>
                 </ul>
             </div>
         </div>

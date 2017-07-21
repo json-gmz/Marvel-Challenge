@@ -14,3 +14,4 @@
 #container-characters .container-char .row:last-child { color: #776e6f; }
 #container-characters .container-char .row:last-child .col-sm-6 { margin-bottom: 5px; }
 #container-characters .container-char .related-comics { font-weight: bold; padding-left: 15px; margin-bottom: 5px; }
+#container-characters .not-founds { color: #ec1d23; font-size: 20px; border: 1px solid #ec1d23; background: #fff; padding: 10px 0; }
